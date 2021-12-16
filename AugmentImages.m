@@ -1,5 +1,5 @@
-projectlocation = "C:\Users\darac\Documents\MATLAB\PervasiveProject"; %set the rootfolder
-rawdata = "C:\Users\darac\Documents\MATLAB\PervasiveProject\Raw-images"; %set the raw images folder
+projectlocation = ""; %set the rootfolder
+rawdata = ""; %set the raw images folder
 augmenteddata = "\Dataset"; %set the dataset folder for augmented images
 augmentation(projectlocation,rawdata,augmenteddata) %calling the augmentation function
 
