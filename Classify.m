@@ -1,7 +1,7 @@
 
 
 img = snapshot(webcam); %take picture from camera
-imwrite(img,"C:\Users\darac\Documents\MATLAB\PervasiveProject\test.jpg"); %write it to folder
+imwrite(img,"yourfolder\test.jpg"); %write it to folder
 
 newImage = imread(fullfile('C:\Users\darac\Documents\MATLAB\PervasiveProject\test.jpg')); %read image
 ds=augmentedImageDatastore(imageSize, newImage, "ColorPreprocessing","gray2rgb"); %augment image to fit NN
