@@ -1,12 +1,5 @@
-# PlayingCardsRecognition
+# GettingStarted
 
-run MakeDir
+Change the directory paths in all the scripts.
 
-change paths in AugmentImages
-change paths in TrainNetwork
-change paths in Classify
-
-run AugmentImages
-run TrainNetwork
-
-Classify
+Run the MakeDir script in matlab to create empty "Dataset" folder with all its subfolders. Run the AugmentImages script to create the large dataset. Run the TrainNetwork script to train the network (you might have to install some matlab addons). Finally Classify your cards with external camera.
